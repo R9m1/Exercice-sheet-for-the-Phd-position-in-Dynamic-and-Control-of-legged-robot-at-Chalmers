@@ -19,3 +19,5 @@ Code for dynamic simulation and control of two pendulums coupled by a spring
 - `ODE_function_no_lin.m` : Use the 'Forward_dynamics_no_lin.m' for the ODE45 numerical simulation to solve the non linear EOM without gravity.
 - `ODE_function_no_lin_with_gravity.m` : Use the 'Forward_dynamics.m' for the ODE45 numerical simulation to solve the non linear EOM with gravity.
 - `Newmark_normalF.m` : Compute the Newmark method.
+- `ODE_to_matrix_lin.m` : Convert the linear EOM into matrix form : Mddq + Kq = 0 with M the mass matrix and K the stiffness matrix.
+- `ODE_to_matrix_no_lin.m` : Convert the non linear EOM into matrix form : Mddq + q(q) = 0.
